@@ -28,13 +28,21 @@
     width: 950px;
   }
   #imagem {
-    float: left;
+    float: right;
     width: 50%;
     height: 100%;
     background-position: right;
   }
   #formulario {
-    float: right;
+    float: left;
     width: 50%;
+  }
+
+  #formulario > p {
+    font-size: 1.2em;
+  }
+
+  #formulario > h1 {
+    font-size: 2em;
   }
 }
