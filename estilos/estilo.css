@@ -37,6 +37,10 @@ main {
   width: 250px;
   height: 500px;
   border-radius: 20px;
+  transition:
+    width 0.2s,
+    height 0.2s;
+  transition-timing-function: ease;
 
   position: absolute;
   top: 50%;
@@ -49,9 +53,9 @@ main {
 #imagem {
   display: block;
   background: white url(../imagens/login.jpg) no-repeat;
-  background-position: top;
-  height: 220px;
   background-size: cover;
+  background-position: left bottom;
+  height: 200px;
 }
 
 #formulario {
